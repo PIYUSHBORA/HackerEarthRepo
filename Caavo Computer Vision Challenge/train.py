@@ -72,7 +72,8 @@ def run_training(bs=32, epochs=10):
                                             class_mode = 'categorical')
     
     # Helper - Callbacks
-    modelCheckPtr = ModelCheckpoint('/models/weights.{epoch:02d}-{val_loss:.2f}.hdf5', monitor='val_loss', verbose=0, save_best_only=False, save_weights_only=False, mode='auto', period=1)
+    modelCheckPtr = ModelCheckpoint(filepath='./models/weights.{epoch:02d}-{val_loss:.2f}.hdf5', monitor='val_loss', 
+                                    verbose=0, save_best_only=True, mode='auto', period=1)
     earlyStopping = EarlyStopping(monitor='val_loss', min_delta=0, patience=0, verbose=0, mode='auto')
 
                                     
