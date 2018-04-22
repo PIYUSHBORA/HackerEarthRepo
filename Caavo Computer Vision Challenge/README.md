@@ -12,25 +12,28 @@ Task: To classify each image in the test set as one of the given 15 categories o
 
 Folder Structure:
 
----Caavo Computer Vision Challenge
-
-​	|---train_test_split.py
-
-​	|---train.py
-
-​	|---predict.py
-
-​	|---dataset
-
-​		|---training_set
-
-​			|---all 15 categories (directories)
-
-​		|---test_set
-
-​			|---all 15 categories (directories)
-
-​		|---test	
+```
+​```bash
+├── Caavo Computer Vision Challenge
+│   ├── dataset
+│   │   ├── training_set
+│   │   │   ├── 15 catergories (directories) 
+|   │   ├── test_set
+│   │   │   ├── 15 catergories (directories) 
+|   │   ├── test
+│   ├── sample_submission.csv
+│   ├── model
+│   │   ├── 
+│   └── partials/template
+├── train_test_split.py
+├── train.py
+├── predict.py
+├── submission.py
+├── mode_architecture.png
+├── README.md
+└── .gitignore
+​```
+```
 
 
 
@@ -45,7 +48,7 @@ Folder Structure:
 
 ### CNN Architecture
 
-![52440418866](C:\Users\ANKIT\AppData\Local\Temp\1524404188662.png)
+![CNN Model Architecture](./model_architecture.png)
 
 
 
