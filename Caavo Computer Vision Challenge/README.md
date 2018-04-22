@@ -1,7 +1,5 @@
 # Caavo Computer Vision Challenge - HackerEarth
 
-------
-
 
 
 ##### This repo contains codes for the [Caavo](https://caavo.com/) [Computer Vision Challenge](https://www.hackerearth.com/challenge/hiring/caavo-software-engineer-hiring-challenge/?utm_source=challenges-modern&utm_campaign=participated-challenges&utm_medium=right-panel) organized on [HackerEarth](https://www.hackerearth.com/).
@@ -12,7 +10,7 @@ Task: To classify each image in the test set as one of the given 15 categories o
 
 
 
-Folder Structure:
+### Folder Structure:
 
 ```
 ​```bash
@@ -39,18 +37,25 @@ Folder Structure:
 
 
 
-###Requirements:
+### Requirements:
 
 1. Tensorflow (>1.0)
+
 2. Keras (>1.0)
+
 3. Python (>3.5)
+
 4. Anaconda (Recommended)
+
+   ​
 
 
 
 ### CNN Architecture
 
 ![CNN-Model Architecture](model_architecture.PNG)
+
+
 
 
 
@@ -63,6 +68,8 @@ Folder Structure:
 5. Grab a cup of coffee and take a small nap while the model trains!
 6. Run `python predict.py` for prediction on test set.
 7. Sit back and let the code do the **magic**....
+
+
 
 
 
@@ -83,4 +90,5 @@ I was able to get an accuracy of 94% on train set and 93.5% on validation set. I
 
 
 
-##### Finally, If liked the repo and found it useful, don't forget to star it!  
+
+##### *Finally, If liked the repo and found it useful, don't forget to star it!*  
