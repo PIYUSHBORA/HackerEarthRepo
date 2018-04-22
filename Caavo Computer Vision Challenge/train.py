@@ -55,7 +55,7 @@ img_data /= 255
 print (img_data.shape)
 
 if num_channel==1:
-	if K.image_dim_ordering()=='th':
+	if K.image_dim_ordering()=='tf':
 		img_data= np.expand_dims(img_data, axis=1) 
 		print (img_data.shape)
 	else:
