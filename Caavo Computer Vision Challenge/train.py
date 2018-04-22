@@ -12,7 +12,7 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import ModelCheckpoint, EarlyStopping
  
 # Image dimensions
-img_width, img_height = 150, 150 
+img_width, img_height = 128, 128 
  
 """
     Creates a CNN model
@@ -72,9 +72,9 @@ def run_training(bs=32, epochs=10):
                                             class_mode = 'categorical')
     
     # Helper - Callbacks
-    modelCheckPtr = ModelCheckpoint(filepath='./models/weights.{epoch:02d}-{val_loss:.2f}.hdf5', monitor='val_loss', 
+    modelCheckPtr = ModelCheckpoint(filepath='./models/weights.{epoch:02d}-val_loss{val_loss:.2f}-val_acc{val_acc:.2f}.hdf5', monitor='val_loss', 
                                     verbose=0, save_best_only=True, mode='auto', period=1)
-    earlyStopping = EarlyStopping(monitor='val_loss', min_delta=0, patience=0, verbose=0, mode='auto')
+    earlyStopping = EarlyStopping(monitor='val_loss', patience=2, verbose=0, mode='auto')
 
                                     
     model = create_model(p=0.6, input_shape=(img_width, img_height, 3))                                  
