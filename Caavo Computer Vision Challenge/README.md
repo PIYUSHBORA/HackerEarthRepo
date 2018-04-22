@@ -1,8 +1,10 @@
-#Caavo Computer Vision Challenge - HackerEarth
+# Caavo Computer Vision Challenge - HackerEarth
+
+------
 
 
 
-######This repo contains codes for the [Caavo](https://caavo.com/) [Computer Vision Challenge](https://www.hackerearth.com/challenge/hiring/caavo-software-engineer-hiring-challenge/?utm_source=challenges-modern&utm_campaign=participated-challenges&utm_medium=right-panel) organized on [HackerEarth](https://www.hackerearth.com/).
+##### This repo contains codes for the [Caavo](https://caavo.com/) [Computer Vision Challenge](https://www.hackerearth.com/challenge/hiring/caavo-software-engineer-hiring-challenge/?utm_source=challenges-modern&utm_campaign=participated-challenges&utm_medium=right-panel) organized on [HackerEarth](https://www.hackerearth.com/).
 
 I have implemented the image classification using CNN with 3 Convolutional layer. The dataset consists of images of different fashion clothing. The train set has 62258 images from 15 different categories and the test set consists of 21273 images.
 
@@ -48,7 +50,7 @@ Folder Structure:
 
 ### CNN Architecture
 
-![CNN Model Architecture](./model_architecture.png)
+![CNN-Model Architecture](model_architecture.PNG)
 
 
 
