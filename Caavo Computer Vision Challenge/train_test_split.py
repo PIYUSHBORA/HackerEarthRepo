@@ -15,9 +15,11 @@ directory = os.listdir()
 for folder in directory:
     files_X = files_y = os.listdir(folder)
     X_train, X_test = train_test_split(files_X, test_size=0.25, random_state=0)
+    os.mkdir(os.path.join(path, '..\\training_set', folder))
+    os.mkdir(os.path.join(path, '..\\test_set', folder))
     
     for x in X_train:
-        os.rename(os.path.join(path, folder, x) , os.path.join(path, '..\\new_train', folder, x))
+        os.rename(os.path.join(path, folder, x) , os.path.join(path, '..\\training_set', folder, x))
         
     for x in X_test:
-        os.rename(os.path.join(path, folder, x), os.path.join(path, '..\\new_validate', folder, x))
+        os.rename(os.path.join(path, folder, x), os.path.join(path, '..\\test_set', folder, x))
