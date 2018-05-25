@@ -2,11 +2,11 @@
 
 
 
-##### This repo contains codes for the [Caavo](https://caavo.com/) [Computer Vision Challenge](https://www.hackerearth.com/challenge/hiring/caavo-software-engineer-hiring-challenge/?utm_source=challenges-modern&utm_campaign=participated-challenges&utm_medium=right-panel) organized on [HackerEarth](https://www.hackerearth.com/).
+#### This repo contains codes for the [Caavo](https://caavo.com/) [Computer Vision Challenge](https://www.hackerearth.com/challenge/hiring/caavo-software-engineer-hiring-challenge/?utm_source=challenges-modern&utm_campaign=participated-challenges&utm_medium=right-panel) organized on [HackerEarth](https://www.hackerearth.com/).
 
-I have implemented the image classification using CNN with 3 Convolutional layer. The dataset consists of images of different fashion clothing. The train set has 62258 images from 15 different categories and the test set consists of 21273 images.
+I have implemented the image classification using CNN with 3 Convolutional layer. The dataset consists of images of different fashion clothing. The train set has **62258** images from 15 different categories and the test set consists of **21273** images.
 
-Task: To classify each image in the test set as one of the given 15 categories of clothes.
+Task: To classify each image in the test set as one of the given **15 categories** of clothes.
 
 
 
@@ -23,7 +23,7 @@ Task: To classify each image in the test set as one of the given 15 categories o
 |   │   ├── test
 │   ├── sample_submission.csv
 │   ├── model
-│   │   ├── 
+│   │   ├── pre-trained models
 │   └── partials/template
 ├── train_test_split.py
 ├── train.py
@@ -39,13 +39,13 @@ Task: To classify each image in the test set as one of the given 15 categories o
 
 ### Requirements:
 
-1. Tensorflow (>1.0)
+1. **[Tensorflow](https://www.tensorflow.org/)** (>1.0)
 
-2. Keras (>1.0)
+2. **[Keras](https://keras.io/)** (>2.0)
 
-3. Python (>3.5)
+3. **[Python](https://www.python.org/)** (>3.5)
 
-4. Anaconda (Recommended)
+4. **[Anaconda](https://anaconda.org/)** (Recommended)
 
    ​
 
@@ -91,4 +91,4 @@ I was able to get an accuracy of 94% on train set and 93.5% on validation set. I
 
 
 
-##### *Finally, If liked the repo and found it useful, don't forget to star it!*  
+#### *Finally, If liked the repo and found it useful, don't forget to star it!*  
